@@ -1,0 +1,18 @@
+{
+  "cloud": {
+    "host": "api.ui.com",
+    "api_key": "your-cloud-api-key"
+  },
+  "consoles": {
+    "default": {
+      "host": "192.168.1.1",
+      "api_key": "your-local-api-key",
+      "site_id": "00000000-0000-0000-0000-000000000000",
+      "console_id": "optional-cloud-console-id"
+    },
+    "remote-site": {
+      "console_id": "cloud-console-id-for-proxy-only",
+      "site_id": "00000000-0000-0000-0000-000000000001"
+    }
+  }
+}
